@@ -1,0 +1,10 @@
+什么是React?,一个用于构建用户界面的JavaScript库
+JavaScript的创建者是谁?,Brendan Eich
+什么是PWA?,Progressive Web App的缩写，即渐进式Web应用
+IndexedDB是什么?,浏览器提供的客户端存储API
+什么是TypeScript?,JavaScript的超集，添加了类型系统
+Zustand是什么?,一个轻量级的React状态管理库
+"什么是闭包?","在JavaScript中，闭包是指函数可以访问其外部作用域的变量"
+Vite的主要优势是什么?,快速的冷启动和热更新
+什么是Service Worker?,运行在浏览器后台的脚本，支持离线缓存等功能
+Tailwind CSS是什么?,一个实用优先的CSS框架
