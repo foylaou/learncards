@@ -1,0 +1,1 @@
+{"name":"學習卡","short_name":"學習卡","description":"一個用於學習的應用","start_url":"/learncards/","display":"standalone","background_color":"#ffffff","theme_color":"#9333ea","lang":"en","scope":"/learncards/","icons":[{"src":"icon-192.png","sizes":"192x192","type":"image/png"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
