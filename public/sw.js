@@ -1,7 +1,7 @@
 const CACHE_NAME = 'learncards-v1'
 const urlsToCache = [
-  '/',
-  '/index.html',
+  '/learncards/',
+  '/learncards/index.html',
 ]
 
 self.addEventListener('install', (event) => {
