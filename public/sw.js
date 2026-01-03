@@ -27,7 +27,11 @@ self.addEventListener('fetch', (event) => {
             }
             return response
           }
-        )
+        ).catch(() => {
+          // If both cache and network fail, show a generic fallback:
+          // return caches.match('/learncards/offline.html');
+          // For now, just return nothing to let the browser handle the network error naturally.
+        })
       })
   )
 })
