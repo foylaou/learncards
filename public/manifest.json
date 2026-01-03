@@ -3,6 +3,7 @@
   "short_name": "學習卡",
   "description": "一個用于學習的閃卡應用",
   "start_url": "/learncards/",
+  "scope": "/learncards/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#9333ea",
