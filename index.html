@@ -18,15 +18,15 @@
     <link rel="apple-touch-startup-image" href="/learncards/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
 
     <title>學習卡</title>
-    <script type="module" crossorigin src="/learncards/assets/index-mVR718Gr.js"></script>
-    <link rel="stylesheet" crossorigin href="/learncards/assets/index-D8mu2tkp.css">
+    <script type="module" crossorigin src="/learncards/assets/index-CbYi4X2u.js"></script>
+    <link rel="stylesheet" crossorigin href="/learncards/assets/index-DQmPy_Kv.css">
   </head>
   <body>
     <div id="root"></div>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/learncards/sw.js')
+          navigator.serviceWorker.register('/learncards/sw.js', { scope: '/learncards/' })
             .then(registration => console.log('SW registered:', registration))
             .catch(error => console.log('SW registration failed:', error))
         })
